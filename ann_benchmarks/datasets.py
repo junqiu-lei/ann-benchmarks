@@ -300,7 +300,7 @@ def random_float(out_fn, n_dims, n_samples, centers, distance):
     import sklearn.datasets
 
     X, _ = sklearn.datasets.make_blobs(n_samples=n_samples, n_features=n_dims, centers=centers, random_state=1)
-    X_train, X_test = train_test_split(X, test_size=0.1)
+    X_train, X_test = train_test_split(X, test_size=0)
     write_output(X_train, X_test, out_fn, distance)
 
 
