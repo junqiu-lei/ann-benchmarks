@@ -487,6 +487,7 @@ DATASETS = {
     "mnist-784-euclidean": mnist,
     "random-xs-20-euclidean": lambda out_fn: random_float(out_fn, 20, 10000, 100, "euclidean"),
     "random-s-100-euclidean": lambda out_fn: random_float(out_fn, 100, 100000, 100, "euclidean"),
+    "random-s-128-euclidean": lambda out_fn: random_float(out_fn, 128, 1000000, 100, "euclidean"),
     "random-s-1024-euclidean": lambda out_fn: random_float(out_fn, 1024, 1000000, 100, "euclidean"),
     "random-s-1536-euclidean": lambda out_fn: random_float(out_fn, 1536, 1000000, 100, "euclidean"),
     "random-s-2048-euclidean": lambda out_fn: random_float(out_fn, 2048, 1000000, 100, "euclidean"),
