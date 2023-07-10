@@ -500,6 +500,7 @@ DATASETS = {
     "random-s-786-euclidean": lambda out_fn: random_float(out_fn, 786, 1010000, 100, "euclidean"),
     "random-s-512-euclidean": lambda out_fn: random_float(out_fn, 512, 1010000, 100, "euclidean"),
     "random-s-256-euclidean": lambda out_fn: random_float(out_fn, 256, 1010000, 100, "euclidean"),
+    "random-s-128-40m-euclidean": lambda out_fn: random_float(out_fn, 128, 47254554, 100, "euclidean"),
     "random-s-128-10m-euclidean": lambda out_fn: random_float(out_fn, 128, 10010000, 100, "euclidean"),
     "random-xs-20-angular": lambda out_fn: random_float(out_fn, 20, 10000, 100, "angular"),
     "random-s-100-angular": lambda out_fn: random_float(out_fn, 100, 100000, 1000, "angular"),
